@@ -1,0 +1,41 @@
+Select the GET
+Invoke the URL http://localhost:8080/getAllBooks
+
+Select the GET
+Invoke the URL http://localhost:8080/get/1
+
+Select the DELETE
+http://localhost:8080/deleteBook/1
+
+
+Select the POST
+Invoke the URL http://localhost:8080/createBook
+Select the Body
+Select raw and type JSON
+Insert the data. We have inserted the following data in the Body:
+
+{  
+    "id": "1",  
+    "author": "V. Rajaraaman",  
+    "publisher": "PHI Learning"
+} 
+{  
+    "id": "2",  
+    "author": "Ivan Bayrossn",  
+    "publisher": "McGraw-Hill"
+} 
+{  
+    "id": "3",  
+    "author": "Dinesh Rajput",  
+    "publisher": "Perlego"
+}
+Select the PUT
+Invoke the URL http://localhost:8080/updateBook/2
+Select the Body
+Select raw and type JSON
+Insert the data. We have inserted the following data in the Body:
+{  
+    "id": "2",  
+    "author": "Ivan Bayrossn",  
+    "publisher": "Westland Publications"
+}   

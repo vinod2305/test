@@ -1,0 +1,3 @@
+https://start.spring.io/
+http://localhost/phpmyadmin/
+./mvnw spring-boot:run
